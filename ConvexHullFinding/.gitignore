@@ -1,0 +1,11 @@
+dependencies/QCustomPlot-library
+./vscode
+App/Additional
+App/ConvexHullFinding_autogen
+Old/
+./Old/
+./build/
+./build
+.vscode
+build
+build/
