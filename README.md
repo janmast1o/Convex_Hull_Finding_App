@@ -19,7 +19,7 @@ To download Qt5 library run this command:
 
 Then, to set up QCustomPlot you will need to visit this repository: 
 https://github.com/legerch/QCustomPlot-library
-and then clone it into dependencies directory included in this repository by running:
+and then clone it into dependencies directory (which should be created in ConvexHullFinding direcotry) by running:
 
 `git init`
 `git clone https://github.com/legerch/QCustomPlot-library`
