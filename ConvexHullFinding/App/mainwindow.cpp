@@ -160,10 +160,10 @@ MainWindow::MainWindow() {
     instructions_label10->setText(instructions_label_text10);                                  
     instruction_layout->addWidget(instructions_label10);
 
-    QLabel* instructions_label10 = new QLabel();
-    const QString instructions_label_text10 = "- <b>Press Show current stack</b> to display found convex hull (or what was found up to a ceratin point at least)";                                
-    instructions_label10->setText(instructions_label_text10);                                  
-    instruction_layout->addWidget(instructions_label10);
+    QLabel* instructions_label10a = new QLabel();
+    const QString instructions_label_text10a = "- <b>Press Show current stack</b> to display found convex hull (or what was found up to a ceratin point at least)";                                
+    instructions_label10->setText(instructions_label_text10a);                                  
+    instruction_layout->addWidget(instructions_label10a);
 
     QLabel* instructions_label11 = new QLabel();
     const QString instructions_label_text11 = "- <b>Press point label buttons</b> to change their color in the plot";                                

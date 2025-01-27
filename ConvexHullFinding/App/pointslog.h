@@ -36,7 +36,7 @@ namespace Ui {
         void remove_certain_element(std::pair<double, double> point, bool surpress_update = false);
         void remove_all_elements();
         std::vector<std::pair<double, double>> get_all_current_data_points();
-        virtual ~PointsLog() {;}
+        virtual ~PointsLog() = default;
     
     };
 

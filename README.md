@@ -11,6 +11,8 @@ The application is written in C++ and also running it requires Qt5 and QCustomPl
 To set up a C/C++ compiler, simply run in the termial:
 
 `sudo apt-get update`
+ 
+
 `sudo apt-get install build-essential gdb`
 
 To download Qt5 library run this command:
@@ -22,6 +24,8 @@ https://github.com/legerch/QCustomPlot-library
 and then clone it into dependencies directory included in this repository by running:
 
 `git init`
+
+
 `git clone https://github.com/legerch/QCustomPlot-library`
 
 from there.
@@ -32,7 +36,11 @@ After setting up everything up as disclosed above, simply run from within the
 ConvexHullFinding directory:
 
 `cmake .`
+
+
 `make`
+
+
 `./clean_up.sh` <- not neccessary, but it deletes the files that are not needed for the app to run
 
 Now the app is ready to use. Run it by executing the command:
@@ -48,8 +56,14 @@ After starting the app, instructions on what to do are in the area in the bottom
 The is how data should be entered into the text area:
 
 (a, b)
+
+
 (c, d)
+
+
 (e, f)
+
+
 etc.
 
 i.e. points should be typed in consecutive lines and also the spacebar between the comma and the second coordinate in needed. Typing in the same point multiple times will not lead to any unexpected behaviour. Also trying to remove the point that is not in the scroll area to the left will not cause any errors. Pressing the label button of a point that is not currently in the plot will not cause any issues.
