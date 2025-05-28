@@ -1,5 +1,9 @@
 # Convex_Hull_Finding_App
 
+## App showcase:
+
+If you do not wish to run the app on your machine, please consider viewing the showcase at [janmast1o.github.io/convex_hull_finding_showcase_dir/](https://janmast1o.github.io/convex_hull_finding_showcase_dir/).
+
 ## Requirements:
 
 App was developed on an unix system (Ubuntu to be precise), and so .sh file was 
